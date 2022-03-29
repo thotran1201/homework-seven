@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.booking-form {
+  margin: 70px auto 0;
+  font-family: ProxNovaThin;
+  width: 1020px;
+}
+
+.booking-form h1 {
+  text-align: left;
+  padding-left: 316px;
+  font-size: 40px;
+}
+
+.form-row {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 180px;
+  height: 30px;
+  border-color: #79addc;
+  font-family: GillSans;
+}
+
+textarea {
+  resize: none;
+}

@@ -1,0 +1,88 @@
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
+    background-color: white;
+  }
+
+  .banner-image {
+    max-width: 290px;
+  }
+
+  .banner-border {
+    width: 410px;
+  }
+
+  .title {
+    margin-top: 100px;
+    margin-right: 80px;
+    margin-left: 70px;
+  }
+
+  .title h1 {
+    font-size: 55px;
+  }
+
+  .title p {
+    font-size: 13px;
+  }
+
+  .button {
+    margin: 0 auto;
+  }
+
+  .travel-destinations {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+  }
+
+  .form {
+    flex-flow: column nowrap;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .booking-form h1 {
+    padding-left: 44px;
+    padding-top: 1px;
+  }
+
+  .booking-form {
+    width: 480px;
+    margin-right: 85px 0 auto;
+  }
+
+  .form-row {
+    flex-flow: column nowrap;
+    padding-top: 5px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 45px;
+  }
+
+  .submit-button {
+    height: 35px;
+    width: 110px;
+    margin-left: 13px 0 auto;
+  }
+
+  .submit-button p {
+    margin-bottom: 100px;
+  }
+
+  .footer {
+    margin: 3px;
+  }
+
+  .footer-logo {
+    max-height: 80px;
+    min-height: 40px;
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}
